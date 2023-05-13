@@ -6,18 +6,18 @@
 ## Se crea el JFrame con los elementos.
 
 Se le añaden: 
-1) TxtArea donde se mostrará el contenido del archivo seleccionado y tambien se podra editar el archivo ahi mismo.
-2) Boton Archivo. Para buscar y seleccionar el archivo
-3) Botón guardar. Para guardar los cambios hechos en el archivo
-4) Botón eliminar. Para eliminar el archivo
-5) ComboBox. Para poder seleccionar el tipo de archivo a buscar (Esto yo se le lo agregue adicionalmente).
+TxtArea donde se mostrará el contenido del archivo seleccionado y tambien se podra editar el archivo ahi mismo.
+Boton Archivo para buscar y seleccionar el archivo
+Botón guardar para guardar los cambios hechos en el archivo
+Botón eliminar para eliminar el archivo
+ComboBox para poder seleccionar el tipo de archivo a buscar (Esto yo se le lo agregue adicionalmente).
 Y le di formato a los elementos.
 
 [![Captura-interfaz.png](https://i.postimg.cc/nLfZ92fG/Captura-interfaz.png)](https://postimg.cc/DS6RtqZS)
 
 ## Dar funcionalidad al botón archivo al hacer clic.
 
-Se crea un JFileChooser para cuando se le de clic al botón se abra un panel para elegir el archivo. Se hace un "filtro" con el FileNameExtensionFilter para elegir que tipo de archivo abrir, esto lo toma del comboBox donde se podrá elegir txt o json. Luego se muestra este cuadro. Se hace el if para si se seleecionó cancelar no haga, si se dio aceptar lo siguiente es que el textField se muestra la ruta y luego con un while se inserta caracter por carácter en un string para que al final se inserte en el textArea. Todo esto dentro de un tryCatch para evitar errores de ejecución.
+Se crea un JFileChooser para cuando se le de clic al botón se abra un panel para elegir el archivo. Se hace un "filtro" con el FileNameExtensionFilter para elegir que tipo de archivo abrir, esto lo toma del comboBox donde se podrá elegir txt o json. Luego se muestra este cuadro. Se hace el if para que, si se seleecionó cancel no haga nada , si se dió open lo siguiente es que el textField se muestra la ruta y luego con un while se inserta caracter por carácter en un string para que al final se inserte en el textArea. Todo esto dentro de un tryCatch para evitar errores de ejecución.
 
 ```
 private void btnArchivoMouseClicked(java.awt.event.MouseEvent evt) {                                        
