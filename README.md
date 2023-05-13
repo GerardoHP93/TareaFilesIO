@@ -13,7 +13,7 @@ Botón eliminar. Para eliminar el archivo
 ComboBox. Para poder seleccionar el tipo de archivo a buscar (Esto yo se le lo agregue adicionalmente).
 Y le di formato a los elementos.
 
-IMAGEN
+[![Captura-interfaz.png](https://i.postimg.cc/nLfZ92fG/Captura-interfaz.png)](https://postimg.cc/DS6RtqZS)
 
 ## Dar funcionalidad al botón archivo al hacer clic.
 
@@ -98,4 +98,14 @@ private void btnEliminarMouseClicked(java.awt.event.MouseEvent evt) {
 
 # Funcionalidad del programa. 
 
-IMAGENES
+1. Al dar clic en el botón Archivo:
+
+![image](https://github.com/GerardoHP93/TareaFilesIO/assets/129221361/1c83f92f-6e20-4f44-b1ba-c715f7db0c8e)
+
+![image](https://github.com/GerardoHP93/TareaFilesIO/assets/129221361/1a5f4d18-4096-485d-bc4d-6c841d823229)
+
+
+
+2. Se modifican texto en el txtArea y se guarda.
+
+
