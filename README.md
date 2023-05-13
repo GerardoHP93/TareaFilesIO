@@ -6,11 +6,11 @@
 ## Se crea el JFrame con los elementos.
 
 Se le añaden: 
-TxtArea donde se mostrará el contenido del archivo seleccionado y tambien se podra editar el archivo ahi mismo
-Boton Archivo. Para buscar y seleccionar el archivo
-Botón guardar. Para guardar los cambios hechos en el archivo
-Botón eliminar. Para eliminar el archivo
-ComboBox. Para poder seleccionar el tipo de archivo a buscar (Esto yo se le lo agregue adicionalmente).
+1) TxtArea donde se mostrará el contenido del archivo seleccionado y tambien se podra editar el archivo ahi mismo.
+2) Boton Archivo. Para buscar y seleccionar el archivo
+3) Botón guardar. Para guardar los cambios hechos en el archivo
+4) Botón eliminar. Para eliminar el archivo
+5) ComboBox. Para poder seleccionar el tipo de archivo a buscar (Esto yo se le lo agregue adicionalmente).
 Y le di formato a los elementos.
 
 [![Captura-interfaz.png](https://i.postimg.cc/nLfZ92fG/Captura-interfaz.png)](https://postimg.cc/DS6RtqZS)
