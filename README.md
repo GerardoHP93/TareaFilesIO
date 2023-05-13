@@ -50,7 +50,7 @@ private void btnArchivoMouseClicked(java.awt.event.MouseEvent evt) {
 
 ```
 
-## Dar funcionalidad al botón guardar al hacer click.
+## Dar funcionalidad al botón guardar al hacer clic.
 
 Primero le agregué un if para comprobar si el textField esta vacio, si esto es asi no se ha importado ningún archivo y entonces cuando se oprime botón guardar sale un cuadro de dialogo. De ya haber mostrado un archivo, los cambios que se haga en el txtArea se guardarán. Para esto se crea un archivo file y se usa el PrintWriter, para poder escribir dentro de el con ayuda del método print() tomando como argumento el contenido del txtArea. Por ultimo se cierra para evitar cambios con el close(). Todo esto dentro de un Try Catch para atrapar cualquier excepción de tipo FileNotFoundException y mostrarlo en la consola con una descripción.
 
@@ -78,7 +78,7 @@ private void btnGuardarMouseClicked(java.awt.event.MouseEvent evt) {
 }
 ```
 
-# Dar funcionalidad al botón eliminar al dar click.
+# Dar funcionalidad al botón eliminar al dar clic.
 
 Aqui simplemente con el método delete se borra el archivo importado. Se usa el if para que si no se pudo borrar (ya sea problamento porque no se importó nada) muestre un mensaje.
 
