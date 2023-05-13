@@ -98,14 +98,25 @@ private void btnEliminarMouseClicked(java.awt.event.MouseEvent evt) {
 
 # Funcionalidad del programa. 
 
-1. Al dar clic en el botón Archivo:
+1. Al dar clic en el botón Archivo, se busca un archivo json y se da a open:
 
 ![image](https://github.com/GerardoHP93/TareaFilesIO/assets/129221361/1c83f92f-6e20-4f44-b1ba-c715f7db0c8e)
 
 ![image](https://github.com/GerardoHP93/TareaFilesIO/assets/129221361/1a5f4d18-4096-485d-bc4d-6c841d823229)
 
+![image](https://github.com/GerardoHP93/TareaFilesIO/assets/129221361/9a2b151f-1459-42b1-a773-f110246991bd)
 
 
 2. Se modifican texto en el txtArea y se guarda.
+
+![image](https://github.com/GerardoHP93/TareaFilesIO/assets/129221361/40f7cbd9-ae2d-4119-b3e4-31e42a2e1753)
+
+![image](https://github.com/GerardoHP93/TareaFilesIO/assets/129221361/48e788a7-cad8-43f8-a6df-2e62d8988eed)
+
+3. Se elimina el archivo.
+
+![image](https://github.com/GerardoHP93/TareaFilesIO/assets/129221361/f48f5bc1-002c-4b07-91f0-a87e0b4e1d55)
+
+![image](https://github.com/GerardoHP93/TareaFilesIO/assets/129221361/2def0797-1a52-4d97-9e27-9fecd2324695)
 
 
