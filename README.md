@@ -23,7 +23,7 @@ Se crea un JFileChooser para cuando se le de clic al botón se abra un panel par
 private void btnArchivoMouseClicked(java.awt.event.MouseEvent evt) {                                        
     System.out.println("Inico de la carga de archivo");
     JFileChooser fc = new JFileChooser();
-    FileNameExtensionFilter filter = new FileNameExtensionFilter("Archivos de texto o       json",cmboxTipoArchivo.getSelectedItem().toString());
+    FileNameExtensionFilter filter = new FileNameExtensionFilter("Archivos de texto o json",cmboxTipoArchivo.getSelectedItem().toString());
 
     fc. setFileFilter(filter);
     int seleccion = fc. showOpenDialog(this);
